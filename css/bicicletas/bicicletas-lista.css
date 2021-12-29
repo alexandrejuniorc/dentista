@@ -3,15 +3,16 @@
   padding-bottom: 120px;
 }
 
-#home .bicicletas-lista {
+#home .doutores-lista {
   padding-top: 60px;
 }
 
-.bicicletas-lista h2 {
+.doutores-lista h2 {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.bicicletas-lista ul {
+.doutores-lista ul {
   display: flex;
   gap: 40px;
   padding: 0 20px 20px 20px;
@@ -24,35 +25,35 @@
   /* Se quiser ele com o scroll */
 }
 
-#bicicleta .bicicletas-lista ul {
+#doutor .doutores-lista ul {
   padding: 0px 0px 20px 0px;
 }
 
-#home .bicicletas-lista ul {
+#home .doutores-lista ul {
   max-width: 1400px;
   padding: 20px;
 }
 
-.bicicletas-lista li {
+.doutores-lista li {
   flex: 1;
   min-width: 280px;
 }
 
-.bicicletas-lista a {
+.doutores-lista a {
   display: block;
 }
 
-.bicicletas-lista img {
+.doutores-lista img {
   margin-bottom: 16px;
 }
 
-.bicicletas-lista h3 {
+.doutores-lista h3 {
   margin-bottom: 8px;
   display: flex;
   align-items: center;
 }
 
-.bicicletas-lista h3::before {
+.doutores-lista h3::before {
   content: "";
   height: 8px;
   width: 12px;
@@ -62,20 +63,20 @@
   transition: width 0.2s;
 }
 
-.bicicletas-lista a:hover h3::before {
+.doutores-lista a:hover h3::before {
   width: 24px;
 }
 
-.bicicletas-lista li span {
+.doutores-lista li span {
   padding-left: 20px;
 }
 
 @media (max-width: 800px) {
-  .bicicletas-lista {
+  .doutores-lista {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .bicicletas-lista ul {
+  .doutores-lista ul {
     gap: 20px;
   }
 }
